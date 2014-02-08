@@ -1,0 +1,35 @@
+<!-- BEGIN body1 -->
+<div id="homepou">
+	<ul>
+		<li>{checkpertitle}</li>
+   	</ul>
+</div>
+<br /><br />
+<form name="f" id="checkform" method="post" action="{action}">
+	<div id="hcentermenu">
+		{fail}
+		<div id="registper">
+		<!-- BEGIN body11 -->
+			<ul>
+				<li class="pre">{attriname}</li><li class="mid">{attrivalue}</li>
+			</ul>
+		<!-- END body11 -->
+		<ul></ul>
+		</div>
+		<div id="registfoot">
+		<ul>
+			<li><input name="back" type="button" value="{back}" class="mybutton" onclick="backs()" /><input name="check" type="submit" value="{create}" class="mybutton" /></li>
+   		</ul>
+   		</div>
+	</div>
+</form>
+<form name="b" id="b" method="post" action="{actionb}"></form>
+<br><br>
+<script>
+<!--
+function backs(){document.b.submit();}
+function sf(){document.f.id.focus();}
+sf();
+// -->
+</script>
+<!-- END body1 -->

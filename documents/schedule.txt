@@ -1,0 +1,3 @@
+2006,5,29
+	1,user cookie must be transformed with ssl protocal. --------------------!!!!!!!
+	2,

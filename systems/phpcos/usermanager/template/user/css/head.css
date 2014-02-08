@@ -1,0 +1,142 @@
+* { 
+	font-size:12px;
+	font-family: arial,helvetica,clean,sans-serif;
+    padding: 0; 
+	margin:0 auto; 
+	text-align:center;
+	text-decoration:none;
+	color:#000;
+}
+
+body { 
+	min-width:700px;
+	background-color:#fff;
+}
+
+ul{
+	list-style:none;
+	text-align:left;
+}
+
+li, li a {
+	display:block;
+	line-height:2em;
+	text-align:left;
+}
+
+li a {
+	padding:3px 5px;
+}
+
+input{
+	padding:3px;
+	border:1px #aaa solid;
+    text-align:left;
+}
+
+textarea{
+    text-align:left;
+	padding:3px;
+	border:1px #aaa solid;
+}
+
+input:focus,
+textarea:focus{
+	border:1px #060 solid;
+}
+
+input.mybutton{
+	margin:1em 1em;
+	width:6em;
+	height:2.5em;
+	text-align:center;
+	cursor:pointer;
+}
+
+input.sbutton{
+	cursor:pointer;
+    padding:2px;
+	margin-right:10px;
+}
+
+.fullwidth {
+	width:700px;
+}
+
+#hdate, 
+#hcentermenu, 
+#hrightmenu {
+	margin-top:1px;
+	float:left;
+	width:200px;
+	text-align:left;
+	line-height:2em;
+}
+
+#hrightmenu {
+	float:right;
+	width:350px;
+	text-align:right;
+}
+
+#hrightmenu a, 
+#hrightmenu .as, 
+#hcentermenu a{
+	border:1px #fff solid;
+	padding:3px 5px;
+}
+
+#hrightmenu .as{
+	color:#999; 
+}
+
+#hrightmenu .logout a{
+	color:#a00; 
+}
+
+input.mybutton:hover,
+input.sbutton:hover,
+#hrightmenu a:hover, 
+#hcentermenu a:hover{
+	border:1px #663 solid;
+	background-color:#ee9;
+	color:#333;
+}
+
+#hcentermenu, 
+#hcentermenu ul, 
+#hcentermenu li, 
+#hcentermenu li a{
+	float:none;
+	text-align:center;
+}
+
+#hcentermenu{
+	width:60%;
+	border:1px #000 dashed;
+	padding:20px;
+	
+}
+
+img#noncsslogo {
+    display:none;
+}
+
+#ptitle {
+	clear:both;
+	background:url(../img/guoqi.gif) no-repeat;
+	padding:10px 0 10px 10px;
+	font-size:20px;
+	height:61px;
+	width:500px;
+}
+
+#hsform {
+    float:right;
+	padding:10px 0 0 0;
+	width:400px;
+}
+
+#hsform form{
+    float:right;
+}

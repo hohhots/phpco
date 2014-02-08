@@ -1,0 +1,150 @@
+* { 
+	font-size:12px;
+	font-family:"Lucida Grande",Verdana,Lucida,Helvetica,Arial,sans-serif,monospace,Times,serif;
+	padding: 0; 
+	margin:0 auto; 
+	text-decoration:none;
+	color:#000;
+}
+
+body {
+	min-width:700px;
+	background-color:#fff;
+	text-align:center;
+}
+
+input{
+	padding:3px;
+	border:1px #aaa solid;
+}
+
+input:focus,
+textarea:focus{
+	border:1px #060 solid;
+}
+
+input.mybutton{
+	margin:1em 1em;
+	width:6em;
+	height:2.5em;
+	text-align:center;
+	cursor:pointer;
+}
+
+textarea{
+	padding:3px;
+	border:1px #aaa solid;
+}
+
+input.sbutton{
+	cursor:pointer;
+    padding:1px;
+	margin-right:10px;
+}
+
+ul{
+	list-style:none;
+	text-align:left;
+}
+
+li, li a {
+	display:block;
+	line-height:2em;
+	text-align:left;
+}
+
+li a {
+	padding:3px 5px;
+}
+
+div.fullwidth {
+	width:99%;
+	text-align:center;
+	border:1px #000 solid;
+}
+
+
+#hcentermenu, 
+#hcentermenu ul, 
+#hcentermenu li, 
+#hcentermenu li a{
+	text-align:center;
+}
+
+#hcentermenu{
+	width:60%;
+	border:1px #000 dashed;
+	padding:20px;
+	
+}
+
+#hcentermenu .text{
+	text-align:left;
+	
+}
+
+div#hrightmenu .date{
+	margin-right:30px;
+}
+
+img#noncsslogo {
+    display:none;
+}
+
+input.mybutton:hover,
+input.sbutton:hover,
+#ptitle #hrightmenu a:hover{
+	border:1px #36f solid;
+	background-color:#69f;
+	color:#fff;
+}
+
+div#ptitle {
+	width:100%;
+    float:left;
+    clear:both;
+    background:url(../img/guoqi.gif) no-repeat;
+	background-color:#366;
+	font-size:20px;
+	height:71px;
+}
+
+#ptitle #hrightmenu {
+	clear:both;
+	float:right;
+	text-align:right;
+	color:#fff;
+	margin-bottom:18px;
+	line-height:2em;
+	background:url(../img/left-black.gif) no-repeat;
+	background-color:#000;
+	width:23em;
+}
+
+#ptitle #hrightmenu a, 
+#ptitle #hrightmenu .as,
+#ptitle #hrightmenu .date{
+	border:1px #000 solid;
+	padding:3px 5px;
+	color:#fff;
+}
+
+span#title {
+	margin:-50px 0 0 110px;
+    float:left;
+	width:250px;
+    font-size:20px;
+	color:#fff;
+}
+
+div#hsform {
+	margin-top:-30px;
+    float:right;
+	width:600px;
+	text-align:right;
+}
+
+div#hsform form{
+    display:inline;
+    float:right;
+}

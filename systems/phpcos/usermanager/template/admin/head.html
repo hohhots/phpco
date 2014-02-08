@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="UTF-8" xml:lang="UTF-8">
+<!-- BEGIN head1 -->
+	<head>
+		<meta http-equiv="content-Type" content="text/html; charset=UTF-8" />
+		<title>{title}</title>
+		<link href="{css}" rel="stylesheet" type="text/css" />
+		<script language="javascript">
+			window.onload=function(){setDisplay();}
+			function setDisplay(){var a=document.getElementById('waitfor');a.style.display='none';}
+			function setheight(){var a=document.getElementById('waitfor');a.style.top=(window.pageYOffset+'px');}
+		</script>
+	</head>
+	<body onscroll="setheight()">
+	<img src="img/guoqi.gif" width="106px" height="71px" id="noncsslogo" />
+	<div id="waitfor" style="position:absolute;margin:0;top:0;left:0;width:100%;height:100%;z-index:100;">
+		<span style="background-color:#c00;color:#fff;padding:5px 10px;font-size:12px;float:right;">{waitfor}</span>
+	</div>
+	<div id="ptitle">
+		<div id="title">{title}</div>
+		<div id="hsform">
+			<div id="hrightmenu">{date}{admin}{home}{log}</div>
+			<form action="{formaction}" name="searchform" method="get">
+			<input type="hidden" name="target" value="search">
+			<input maxlength=2048 size=30 name="skey" value="{skeyv}">
+			<input type=submit class="sbutton" value="{searchb1}">&nbsp;
+			</form>
+		</div>
+	</div>
+<!-- END head1 -->

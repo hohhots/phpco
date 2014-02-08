@@ -1,0 +1,27 @@
+<!-- BEGIN login1 -->
+<div id="homepou">
+	<ul>
+		<li>{login}:</li>
+   	</ul>
+</div><br /><br />
+<form name="f" id="loginform" method="post" action="{action}">
+	<div id="hcentermenu">
+	{fail}
+	{id}: <input  name="userid" type="text" size="15" maxlength="20" /><div style="height:5px;"></div>
+	{pass}: <input name="passwd" type="password" size="15" maxlength="50" />
+	
+		<ul>
+			<li><input name="back" type="button" value="{back}" class="mybutton" onclick="backs()" /><input name="loginto" type="submit" value="{loginto}" class="mybutton" /></li>
+   		</ul>
+	</div>
+</form>
+<form name="b" id="b" method="post" action="{actionb}"></form>
+<br><br>
+<script>
+<!--
+function backs(){document.b.submit();}
+function sf(){document.f.userid.focus();}
+sf();
+// -->
+</script>
+<!-- END login1 -->

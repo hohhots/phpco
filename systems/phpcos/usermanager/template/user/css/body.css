@@ -1,0 +1,215 @@
+#attentionmenu{
+	margin:3px auto;
+	padding:5px 5px;
+	color:#fff;
+	background-color:#a33;
+	width:20em;
+	clear:both;
+}
+
+#homepou {
+	padding:2px 10px;
+	width:680px;
+	background-color:#397Ab8;
+}
+
+#homepou li, 
+#homepou li a {
+	display:inline;
+	border:1px #397Ab8 solid;
+	color:#fff;
+}
+
+#homepou .current{
+    padding:3px 5px;
+	border:1px #397Ab8 solid;
+	background-color:#ee9;
+	color:#000;
+}
+
+#homepou li a:hover, 
+#regist a:hover, 
+#homesubou li a:hover, 
+#searchrs li a:hover{
+	border:1px #663 solid;
+	background-color:#ee9;
+	color:#000;
+}
+
+#homeouattr {
+    margin:5px 0 5px 0;
+	border:1px #000 dashed;
+    padding:5px;
+    float:right;
+	width:390px;
+}
+
+#homeouattr ul{
+	border-bottom:1px #999 dashed;
+}
+
+#homeouattr li{
+	margin:3px;
+}
+
+#homeouattr .homefixwli,
+#homeouattr .homefixwlip {
+	margin:0;
+	float:left;
+	width:3.5em;
+	padding:0 2px;
+	text-align:right;
+}
+
+#homeouattr .homefixwlip {
+	width:5em;
+}
+
+#homesubou {
+	margin:5px 5px 5px 0;
+    width:283px;
+    padding:2px;
+    float:left;
+	border:1px #000 dashed;
+}
+
+#homesubou li {
+ 	margin:0 1px;
+}
+
+#homesubou li a, 
+#searchrs li a{
+ 	padding:0 1px;
+ 	border:1px #fff solid;
+}
+
+#homesubou .current
+{
+    padding:0 1px;
+ 	border:1px #fff solid;
+	background-color:#ee9;
+	color:#000;
+}
+
+#homesubou .hiconou, 
+#homesubou .hiconper {
+	clear:both;
+    float:left;
+	width:23px;
+	background:url(../img/ou.png) no-repeat center center;
+}
+
+#homesubou .hiconper {
+	background:url(../img/uid.png) no-repeat center center;
+}
+
+#regist{
+	margin:5px auto;
+	clear:both;
+	text-align:center;
+	width:90%;
+	padding:3px 1px 5px 1px;
+	line-height:2em;
+}
+
+#regist a{
+	margin:1em;
+	padding:6px 10px;
+	height:2.5em;
+	border:1px #aaa solid;
+	background-color:#eee;
+	color:#000;
+}
+
+#regist li a{
+	border:1px #fff solid;
+	text-align:center;
+}
+
+#regist .iconou, 
+#regist .iconper,
+#searchrs .iconou, 
+#searchrs .iconper
+{
+	padding:0 0 0 23px;
+	background:url(../img/ou.png) no-repeat;
+}
+
+#regist .iconper,
+#searchrs .iconper{
+	background:url(../img/uid.png) no-repeat;
+}
+
+#searchrs{
+	width:700px;
+	text-align:left;
+}
+
+#searchrs ul {
+	margin:20px 0 0 0;
+}
+
+#searchrs li.num {
+	clear:left;
+	float:left;
+	margin:1px 2px;
+	width:20px;
+}
+
+#searchrs li.content {
+	margin:4px 2px;
+	background-color:#dd9;
+}
+
+ #searchrs li a{
+ 	border:1px #fff solid;
+ }
+
+#registfoot{
+	height:3.5em;
+	clear:both;
+}
+
+
+#registper {
+	margin:0 auto;
+	width:90%;
+	padding:10px;
+}
+
+#registper ul{
+	clear:left;
+	border-bottom:1px #ccc dashed;
+}
+
+#registper li{
+	margin:4px 0 2px 0;
+	float:left;
+	padding:2px 0;
+}
+
+#registper .pre,
+#registper .presub{
+	width:5em;
+	padding:1px 3px;
+	text-align:right;
+	background-color:#dd9;
+}
+
+#registper .presub{
+	background-color:#fff;
+}
+
+#registper .mid{
+	margin-left:1em;
+}
+
+#registper .end{
+	margin-left:2em;
+	color:#fff;
+	background-color:#a33;
+}
+
+#registper textarea{
+	text-align:left;
+}

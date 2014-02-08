@@ -1,0 +1,26 @@
+<!-- BEGIN body1 -->
+<div id="homepou">
+	<ul>
+		<li>{checkpertitle}</li>
+   	</ul>
+</div>
+<br /><br />
+<form name="f" id="checkform" method="post" action="{action}">
+	<div id="hcentermenu">
+	{fail}<br />
+	{id}: <input  name="id" type="text" size="15" maxlength="20" value="{idvalue}" /><div style="height:5px;"></div>
+		<ul>
+			<li><input name="back" type="button" value="{back}" class="mybutton" onclick="backs()" /><input name="check" type="submit" value="{check}" class="mybutton" /></li>
+   		</ul>
+	</div>
+</form>
+<form name="b" id="b" method="post" action="{actionb}"></form>
+<br><br>
+<script>
+<!--
+function backs(){document.b.submit();}
+function sf(){document.f.id.focus();}
+sf();
+// -->
+</script>
+<!-- END body1 -->

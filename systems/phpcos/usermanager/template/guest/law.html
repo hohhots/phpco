@@ -1,0 +1,27 @@
+<!-- BEGIN body1 -->
+
+<div id="homepou">
+	<ul>
+	<!-- BEGIN body11 --><li>{pouname}</li><!-- END body11 -->
+   	</ul>
+</div>
+
+		<form name="f" id="loginform" method="post" action="{action}">
+			<div id="registper">
+				<textarea readonly="readonly" rows="25" cols="80">{law}</textarea>
+			</div>
+			<div id="regist">
+				{lawcont}<br />
+				<input type="hidden" name="law" value="law">
+				<input type="radio" name="read" value="yes" onClick="submitForm()">{agree}
+				&nbsp; &nbsp; &nbsp; <input type="radio" name="read" value="no" onClick="submitForm()">{decline}
+			</div>	
+		</form>
+<!-- END body1 -->
+<script>
+<!--
+function submitForm() {document.f.submit();}
+function sf(){document.f.fullname.focus();}
+sf();
+// -->
+</script>

@@ -1,0 +1,199 @@
+#attentionmenu{
+	margin:3px auto;
+	padding:5px 5px;
+	color:#fff;
+	background-color:#a33;
+	width:20em;
+	clear:both;
+}
+
+#homepou {
+    margin:0;
+	clear:both;
+	width:100%;
+    padding-top:2px;
+    background-color:#366;
+	border-bottom:1px #366 solid;
+}
+
+#homepou li, 
+#homepou li a {
+    padding:4px;
+	display:inline;
+    color:#fff;
+	border:1px #366 solid;
+}
+
+#homepou .current{
+	padding:4px;
+    border:1px #666 solid;
+	background-color:#dd9;
+	color:#000;
+}
+
+#homepou li a:hover, 
+#regist a:hover, 
+#homesubou li a:hover, 
+#searchrs li a:hover{
+	border:1px #36f solid;
+	background-color:#69f;
+	color:#fff;
+}
+
+#homeouattr {
+	margin:15px 15px 0 10px;
+	float:left;
+	width:50%;
+	text-align:center;
+    border:1px #000 dashed;
+}
+
+.describ{
+	margin:10px auto;
+	border-bottom:1px #999 dashed;
+	width:50%;
+}
+
+
+#homeouattr ul{
+	border-bottom:1px #999 dashed;
+}
+
+#homeouattr li{
+	margin:3px;
+}
+
+#homeouattr .homefixwli {
+	margin:0;
+	float:left;
+	width:3.5em;
+	padding:0 2px;
+	text-align:right;
+}
+
+#homesubou {
+    display:inline;
+    float:left;
+	margin-top:15px;
+	margin-right:5px;
+	padding:2px;
+	width:40%;
+    border:1px #000 dashed;
+}
+
+#homesubou ul{
+	width:100%;
+	border:0;
+}
+
+#homesubou li {
+ 	margin:0;
+    
+}
+
+#homesubou li a {
+	margin:0;
+ 	padding:1px;
+ 	border:1px #fff solid;
+}
+
+#homesubou .hiconou{
+	clear:both;
+	float:left;
+	width:23px;
+	background:url(../img/ou.png) no-repeat center center;
+}
+
+#regist{
+	margin:0 auto;
+	clear:both;
+	text-align:center;
+	width:90%;
+	padding:3px 1px 5px 1px;
+	line-height:2em;
+}
+
+#regist a{
+	margin:1em;
+	padding:6px 10px;
+	height:2.5em;
+	border:1px #aaa solid;
+	background-color:#eee;
+	color:#000;
+}
+
+#registper {
+	margin:0 auto;
+	width:80%;
+	padding:10px;
+}
+
+#registper ul{
+	width:600px;
+    clear:left;
+	border-bottom:1px #ccc dashed;
+}
+
+#registper li{
+	margin:4px 0 2px 0;
+	float:left;
+	padding:2px 0;
+}
+
+#registper .pre,
+#registper .presub{
+	width:5em;
+	padding:1px 3px;
+	text-align:right;
+	background-color:#dd9;
+}
+
+#registper .presub{
+	background-color:#fff;
+}
+
+#registper .mid{
+	margin-left:1em;
+}
+
+#registper .end{
+	margin-left:2em;
+	color:#fff;
+	background-color:#a33;
+}
+
+#registper textarea{
+	text-align:left;
+}
+
+#searchrs{
+	width:100%;
+	text-align:left;
+}
+
+#searchrs ul {
+	margin:20px 10px;
+}
+
+ #searchrs li{
+ 	margin:1px 0;
+
+ }
+ 
+
+#searchrs li a{    
+    padding:1px;
+    border:1px #fff solid;
+ }
+
+#searchrs li.num {
+	clear:left;
+	float:left;
+	margin:0;
+    width:20px;
+    padding:1px;
+    color:#f00;
+    border:1px #fff solid;
+}
+
+

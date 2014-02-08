@@ -1,0 +1,221 @@
+#attentionmenu{
+	margin:3px auto;
+	padding:5px 5px;
+	color:#fff;
+	background-color:#a33;
+	width:20em;
+	clear:both;
+}
+
+#homepou {
+	margin:0;
+	width:100%;
+	padding:3px 0;
+	background-color:#dda;
+	border-bottom:1px #366 solid;
+}
+
+#homepou .current{
+    padding:3px 5px;
+	border:1px #36f solid;
+	background-color:#69f;
+	color:#fff;
+}
+
+#homepou li, 
+#homepou li a {
+	display:inline;
+	border:1px #dda solid;
+}
+
+#homepou li a:hover, 
+#regist a:hover,
+#registmenu a:hover,  
+#homesubou li a:hover, 
+#searchrs li a:hover{
+	border:1px #36f solid;
+	background-color:#69f;
+	color:#fff;
+}
+
+#homeouattr {
+	margin-top:7px;
+	float:left;
+	width:57%;
+	padding:5px;
+	text-align:center;
+}
+
+.describ{
+	margin:10px auto;
+	border-bottom:1px #999 dashed;
+	width:50%;
+}
+
+
+#homeouattr ul{
+	border-bottom:1px #999 dashed;
+}
+
+#homeouattr li{
+	margin:3px;
+}
+
+#homeouattr .homefixwli,
+#homeouattr .homefixwlip {
+	margin:0;
+	float:left;
+	width:3.5em;
+	padding:0 2px;
+	text-align:right;
+	background-color:#dda;
+}
+
+#homeouattr .homefixwlip {
+	width:5em;
+}
+
+#homesubou {
+	float:right;
+	margin-top:15px;
+	margin-right:5px;
+	padding-right:2px;
+	width:40%;
+}
+
+#homesubou ul{
+	width:100%;
+	border:0;
+}
+
+#homesubou li {
+ 	margin:1px 1px;
+ 	background-color:#eee;
+}
+
+#homesubou li a{
+	padding:0 0 0 5px;
+ 	border:1px #eee solid;
+}
+
+#homesubou li.current {
+	padding:0 0 0 5px;
+ 	border:1px #36f solid;
+	background-color:#69f;
+	color:#fff;
+}
+
+#homesubou .hiconou,
+#homesubou .hiconper {
+	margin:3px 0 0 0;
+	float:left;
+	width:23px;
+	background:url(../img/ou.png) no-repeat;
+}
+
+#homesubou .hiconper {
+	background:url(../img/uid.png) no-repeat;
+}
+
+#registmenu{
+	height:3.5em;
+	clear:both;
+	text-align:left;
+}
+
+#registmenu a{
+	float:left;
+	width:4em;
+	margin:3px;
+	padding:6px 10px;
+	border:1px #aaa solid;
+	background-color:#eee;
+	color:#000;
+	text-align:center;
+}
+
+#registmenu #regist,
+#registmenu #check,
+#registmenu #edit{
+    float:left;
+    margin:3px;
+    background-color:#cca;
+}
+
+#registmenu #check{
+     background-color:#c33;
+}
+
+#registfoot{
+	height:3.5em;
+	clear:both;
+}
+
+#registper {
+	margin:0 auto;
+	width:80%;
+	padding:10px;
+}
+
+#registper ul{
+	clear:left;
+	border-bottom:1px #ccc dashed;
+}
+
+#registper li{
+	margin:4px 0 2px 0;
+	float:left;
+	padding:2px 0;
+}
+
+#registper .pre,
+#registper .presub{
+	width:5em;
+	padding:1px 3px;
+	text-align:right;
+	background-color:#dda;
+}
+
+#registper .presub{
+	background-color:#fff;
+}
+
+#registper .mid{
+	margin-left:1em;
+}
+
+#registper .end{
+	margin-left:2em;
+	color:#fff;
+	background-color:#a33;
+}
+
+#registper textarea{
+	text-align:left;
+}
+
+#searchrs{
+	width:100%;
+	text-align:left;
+}
+
+#searchrs ul {
+	margin:20px 10px;
+}
+
+#searchrs li.num {
+	clear:left;
+	float:left;
+	margin:4px 2px;
+	width:20px;
+}
+
+#searchrs li.content {
+	margin:4px 2px;
+	background-color:#dda;
+}
+
+ #searchrs li a{
+ 	border:1px #fff solid;
+ }
+

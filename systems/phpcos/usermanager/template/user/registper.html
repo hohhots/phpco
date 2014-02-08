@@ -1,0 +1,111 @@
+<!-- BEGIN body1 -->
+
+<div id="homepou">
+	<ul>
+	<!-- BEGIN body11 --><li>{pouname}</li><!-- END body11 -->
+   	</ul>
+</div>
+	{alreadyregistfail}
+	<div id="registfoot">
+		<input name="back" type="button" value="{back}" class="mybutton" onclick="back()" />
+		<input name="reset" type="button" value="{reset}" class="mybutton" onclick="resetform()" />
+		<input name="submit" type="button" value="{submit}" class="mybutton" onclick="submitform()" />
+	</div>
+	<form name="f" id="f" method="post" action="{action}">
+		<div id="registper">
+			<ul>
+				<li class="pre">{orgname}</li>
+				<li class="mid"><input  readonly="readonly" name="orgname" type="text" size="40" maxlength="50" value="{orgnameval}" /></li>
+			</ul><ul>
+				<li class="pre">{fullname}</li>
+				<li class="mid"><input  name="fullname" type="text" size="12" maxlength="20" value="{fullnameval}" />{fillup}</li>
+				<li class="end">{fullnamefail}</li>
+			</ul><ul>
+				<li class="pre">{phone}</li>
+				<li class="mid">1、<input  name="phone1" type="text" size="8" maxlength="7" value="{phone1val}" />{fillup}</li>
+				<li class="end">{phone1fail}</li>
+			</ul><ul>
+				<li class="presub">&nbsp;</li>
+				<li class="mid">2、<input  name="phone2" type="text" size="8" maxlength="7" value="{phone2val}" /></li>
+				<li class="end">{phone2fail}</li>
+			</ul><ul>
+				<li class="presub">&nbsp;</li>
+				<li class="mid">3、<input  name="phone3" type="text" size="8" maxlength="7" value="{phone3val}" /></li>
+				<li class="end">{phone3fail}</li>
+			</ul><ul>
+				<li class="presub">&nbsp;</li>
+				<li class="mid">4、<input  name="phone4" type="text" size="8" maxlength="7" value="{phone4val}" /></li>
+				<li class="end">{phone4fail}</li>
+			</ul><ul>
+				<li class="pre">{password}</li>
+				<li class="mid"><input  name="password1" type="password" size="15" maxlength="20" value="{password1val}" />{fillupmin}</li>
+				<li class="end">{passwordfail}</li>
+			</ul><ul>
+				<li class="pre">{rewrite}</li>
+				<li class="mid"><input  name="password2" type="password" size="15" maxlength="20" value="{password2val}" /></li>
+				<li class="end">{repasswordfail}</li>
+			</ul><ul>
+				<li class="pre">{fax}</li>
+				<li class="mid">1、<input  name="fax1" type="text" size="8" maxlength="7" value="{fax1val}" /></li>
+				<li class="end">{fax1fail}</li>
+			</ul><ul>
+				<li class="presub">&nbsp;</li>
+				<li class="mid">2、<input  name="fax2" type="text" size="8" maxlength="7" value="{fax2val}" /></li>
+				<li class="end">{fax2fail}</li>
+			</ul><ul>
+				<li class="pre">{homephone}</li>
+				<li class="mid"><input name="homephone" type="text" size="8" maxlength="7" value="{homephoneval}" /></li>
+				<li class="end">{homephonefail}</li>
+			</ul><ul>
+				<li class="pre">{mail}</li>
+				<li class="mid"><input  name="mail" type="text" size="30" maxlength="30" value="{mailval}" /></li>
+				<li class="end">{mailfail}</li>
+			</ul><ul>
+				<li class="pre">{mobile}</li>
+				<li class="mid"><input  name="mobile" type="text" size="15" maxlength="15" value="{mobileval}" /></li>
+				<li class="end">{mobilefail}</li>
+			</ul><ul>
+				<li class="pre">{roomnum}</li>
+				<li class="mid"><input  name="roomnum" type="text" size="7" maxlength="7" value="{roomnumval}" /></li>
+				<li class="end">{roomnumfail}</li>
+			</ul><ul>
+				<li class="pre">{address}</li>
+				<li class="mid"><input  name="address" type="text" size="40" maxlength="40" value="{addressval}" /></li>
+				<li class="end">{addressfail}</li>
+			</ul><ul>
+				<li class="pre">{postalcode}</li>
+				<li class="mid"><input  name="postalcode" type="text" size="7" maxlength="6" value="{postalcodeval}" /></li>
+				<li class="end">{postalcodefail}</li>
+			</ul><ul>
+				<li class="pre">{homeaddress}</li>
+				<li class="mid"><input  name="homeaddress" type="text" size="40" maxlength="40" value="{homeaddressval}" /></li>
+				<li class="end">{homeaddressfail}</li>
+			</ul><ul>
+				<li class="pre">{employtype}</li>
+				<li class="mid"><input  name="employtype" type="text" size="15" maxlength="15" value="{employtypeval}" /></li>
+				<li class="end">{employtypefail}</li>
+			</ul><ul>
+				<li class="pre">{description}</li>
+				<li class="mid"><textarea id="description" rows="5" cols="60" width="200px" name="description" >{descriptionval}</textarea></li>
+				<li class="end">{descriptionfail}</li>
+			</ul>
+			<ul></ul>
+		</div>
+	</form>
+	<form name="b" id="b" method="post" action="{actionb}"></form>
+	<div id="registfoot">
+		<input name="back" type="button" value="{back}" class="mybutton" onclick="back()" />
+		<input name="reset" type="button" value="{reset}" class="mybutton" onclick="resetform()" />
+		<input name="submit" type="button" value="{submit}" class="mybutton" onclick="submitform()" />
+	</div>
+<script>
+<!--
+function back() {document.b.submit();}
+function resetform() {document.f.reset();}
+function submitform() {if(checks() == 'true'){if(confirm('{confirmper}')){document.f.submit();}}}
+function checks() {message = '';flag = 'true';if((document.f.orgname.value) != ''){if((document.f.fullname.value) != ''){if((document.f.phone1.value) == ''){message = "{nophone}";}}else{message = "{nofullname}";}}else{message = "{noorgname}";}if(message != ''){flag = 'false';alert(message);}return flag;}
+function sf(){document.f.fullname.focus();}
+sf();
+// -->
+</script>
+<!-- END body1 -->

@@ -1,0 +1,81 @@
+<!-- BEGIN body1 -->
+
+<div id="homepou">
+	<ul>
+	<!-- BEGIN body11 --><li>{pouname}</li><!-- END body11 -->
+   	</ul>
+</div>
+{alreadyregistfail}
+	<div id="registfoot">
+		<input name="back" type="button" value="{back}" class="mybutton" onclick="back()" />
+		<input name="reset" type="button" value="{reset}" class="mybutton" onclick="resetform()" />
+		<input name="submit" type="button" value="{submit}" class="mybutton" onclick="submitform()" />
+	</div>
+	<form name="f" id="f" method="post" action="{action}">
+		<div id="registper">
+			<ul>
+				<li class="pre">{orgname}</li>
+				<li class="mid"><input name="orgname" type="text" size="40" maxlength="50" value="{orgnameval}" />{fillup}</li>
+				{orgnamefail}
+			</ul><ul>
+				<li class="pre">{porgname}</li>
+				<li class="mid"><input readonly="readonly" name="porgname" type="text" size="40" maxlength="50" value="{porgnameval}" />{fillup}</li>
+				{porgnamefail}
+			</ul><ul>
+				<li class="pre">{phone}</li>
+				<li class="mid">1、<input  name="phone1" type="text" size="8" maxlength="7" value="{phone1val}" />{fillup}</li>
+				{phone1fail}
+			</ul><ul>
+				<li class="presub">&nbsp;</li>
+				<li class="mid">2、<input  name="phone2" type="text" size="8" maxlength="7" value="{phone2val}" /></li>
+				{phone2fail}
+			</ul><ul>
+				<li class="presub">&nbsp;</li>
+				<li class="mid">3、<input  name="phone3" type="text" size="8" maxlength="7" value="{phone3val}" /></li>
+				{phone3fail}
+			</ul><ul>
+				<li class="presub">&nbsp;</li>
+				<li class="mid">4、<input  name="phone4" type="text" size="8" maxlength="7" value="{phone4val}" /></li>
+				{phone4fail}
+			</ul><ul>
+				<li class="pre">{fax}</li>
+				<li class="mid">1、<input  name="fax1" type="text" size="8" maxlength="7" value="{fax1val}" /></li>
+				{fax1fail}
+			</ul><ul>
+				<li class="presub">&nbsp;</li>
+				<li class="mid">2、<input  name="fax2" type="text" size="8" maxlength="7" value="{fax2val}" /></li>
+				{fax2fail}
+			</ul><ul>
+				<li class="pre">{address}</li>
+				<li class="mid"><input  name="address" type="text" size="40" maxlength="40" value="{addressval}" /></li>
+				{addressfail}
+			</ul><ul>
+				<li class="pre">{postalcode}</li>
+				<li class="mid"><input  name="postalcode" type="text" size="7" maxlength="6" value="{postalcodeval}" /></li>
+				{postalcodefail}
+			</ul><ul>
+				<li class="pre">{description}</li>
+				<li class="mid"><textarea id="description" rows="5" cols="60" width="200px" name="description" >{descriptionval}</textarea></li>
+				{descriptionfail}
+			</ul>
+			<ul></ul>
+		</div>
+	</form>
+	<form name="b" id="b" method="post" action="{actionb}"></form>
+	<div id="registfoot">
+		<input name="back" type="button" value="{back}" class="mybutton" onclick="back()" />
+		<input name="reset" type="button" value="{reset}" class="mybutton" onclick="resetform()" />
+		<input name="submit" type="button" value="{submit}" class="mybutton" onclick="submitform()" />
+	</div>
+<script>
+<!--
+function back() {document.b.submit();}
+function resetform() {document.f.reset();}
+function submitform() {if(checks() == 'true'){if(confirm('{confirmou}')){document.f.submit();}}}
+function checks() {message = '';flag = 'true';if((document.f.orgname.value) != ''){if((document.f.porgname.value) != ''){if((document.f.phone1.value) == ''){message = "{nophone}";}}else{message = "{noporgname}";}}else{message = "{noorgname}";}
+	if(message != ''){flag = 'false';alert(message);}return flag;}
+function sf(){document.f.orgname.focus();}
+sf();
+// -->
+</script>
+<!-- END body1 -->
